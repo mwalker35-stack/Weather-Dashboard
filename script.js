@@ -90,6 +90,7 @@ for (let i = 0; i < searchedcity.length; i++) {
     button.textContent = searchedcity[i]
     savedCity.appendChild(button)
     button.addEventListener("click", getWeather)
+    
 }
 
 var form = document.getElementById('form')
